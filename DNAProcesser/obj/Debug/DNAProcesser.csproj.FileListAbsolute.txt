@@ -1,9 +1,0 @@
-D:\Project\TestCSharp\DNAProcesser\DNAProcesser\bin\Debug\DNAProcesser.exe.config
-D:\Project\TestCSharp\DNAProcesser\DNAProcesser\bin\Debug\DNAProcesser.exe
-D:\Project\TestCSharp\DNAProcesser\DNAProcesser\bin\Debug\DNAProcesser.pdb
-D:\Project\TestCSharp\DNAProcesser\DNAProcesser\obj\Debug\DNAProcesser.csprojResolveAssemblyReference.cache
-D:\Project\TestCSharp\DNAProcesser\DNAProcesser\obj\Debug\DNAProcesser.FormMain.resources
-D:\Project\TestCSharp\DNAProcesser\DNAProcesser\obj\Debug\DNAProcesser.Properties.Resources.resources
-D:\Project\TestCSharp\DNAProcesser\DNAProcesser\obj\Debug\DNAProcesser.csproj.GenerateResource.Cache
-D:\Project\TestCSharp\DNAProcesser\DNAProcesser\obj\Debug\DNAProcesser.exe
-D:\Project\TestCSharp\DNAProcesser\DNAProcesser\obj\Debug\DNAProcesser.pdb
