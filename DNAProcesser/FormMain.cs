@@ -32,8 +32,13 @@ namespace DNAProcesser
 
         private void btn_Compare_Click(object sender, EventArgs e)
         {
-            int minStep = StringCompare.EditDistance("aassff", "assff");
+            Queue<StringProcessor.EditStruct> queue;
+            int minStep = StringProcessor.StringCompare.EditDistance(this.textBox1.Text, this.textBox2.Text, out queue);
             MessageBox.Show(minStep.ToString());
+            while (queue.Count > 0)
+            {
+                Console.WriteLine(queue.Dequeue().ToString());
+            }
         }
     }
 }
