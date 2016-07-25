@@ -36,6 +36,7 @@
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.textBox2 = new System.Windows.Forms.TextBox();
+            this.btn_Invert = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -99,11 +100,22 @@
             this.textBox2.Size = new System.Drawing.Size(242, 21);
             this.textBox2.TabIndex = 6;
             // 
+            // btn_Invert
+            // 
+            this.btn_Invert.Location = new System.Drawing.Point(263, 218);
+            this.btn_Invert.Name = "btn_Invert";
+            this.btn_Invert.Size = new System.Drawing.Size(75, 23);
+            this.btn_Invert.TabIndex = 7;
+            this.btn_Invert.Text = "Invert";
+            this.btn_Invert.UseVisualStyleBackColor = true;
+            this.btn_Invert.Click += new System.EventHandler(this.btn_Invert_Click);
+            // 
             // FormMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(451, 262);
+            this.Controls.Add(this.btn_Invert);
             this.Controls.Add(this.textBox2);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.btn_Compare);
@@ -127,5 +139,6 @@
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.ContextMenuStrip contextMenuStrip1;
         private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.Button btn_Invert;
     }
 }

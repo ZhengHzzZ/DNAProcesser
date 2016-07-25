@@ -40,5 +40,19 @@ namespace DNAProcesser
                 Console.WriteLine(queue.Dequeue().ToString());
             }
         }
+
+        private void btn_Invert_Click(object sender, EventArgs e)
+        {
+            OpenFileDialog ofd = new OpenFileDialog();
+            ofd.Multiselect = true;
+            if (ofd.ShowDialog() == DialogResult.OK)
+            {
+                foreach (string filePath in ofd.FileNames)
+                {
+                    string outputPath = System.IO.Path.GetDirectoryName(filePath) + "\\" + System.IO.Path.GetFileNameWithoutExtension(filePath) + "_New.jpg";
+                    ConvertImage.Invert.InvertColor(filePath, outputPath);
+                }
+            }
+        }
     }
 }
